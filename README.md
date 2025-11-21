@@ -1,11 +1,18 @@
 <div align="center">
 <img src="https://github.com/mostafaalagamy/Metrolist/blob/main/fastlane/metadata/android/en-US/images/icon.png" width="160" height="160" style="display: block; margin: 0 auto"/>
-<h1>Metrolist</h1>
+<h1>Metrolist-Subsonic</h1>
 <p>Subsonic client for Android</p>
+<p><em>A fork of <a href="https://github.com/mostafaalagamy/Metrolist">Metrolist</a> with Subsonic API integration</em></p>
 
-<div style="padding: 16px; margin: 16px 0; background-color: #FFFBE5; border-left: 6px solid #FFC107; border-radius: 4px;">
-<h2 style="margin: 0;"><strong>⚠Warning</strong></h2>
-If you're in a region where YouTube Music is not supported, you won't be able to use this app <strong>unless</strong> you have a proxy or VPN to connect to a YTM-supported region.
+[![Latest release](https://img.shields.io/github/v/release/liraz747/Metrolist-Subsonic?style=for-the-badge)](https://github.com/liraz747/Metrolist-Subsonic/releases)
+[![GitHub license](https://img.shields.io/github/license/liraz747/Metrolist-Subsonic?style=for-the-badge)](https://github.com/liraz747/Metrolist-Subsonic/blob/main/LICENSE)
+[![GitHub forks](https://img.shields.io/github/forks/liraz747/Metrolist-Subsonic?style=for-the-badge)](https://github.com/liraz747/Metrolist-Subsonic/network)
+[![GitHub stars](https://img.shields.io/github/stars/liraz747/Metrolist-Subsonic?style=for-the-badge)](https://github.com/liraz747/Metrolist-Subsonic/stargazers)
+</div>
+
+<div style="padding: 16px; margin: 16px 0; background-color: #E3F2FD; border-left: 6px solid #2196F3; border-radius: 4px;">
+<h2 style="margin: 0;"><strong>About This Fork</strong></h2>
+This is a fork of <a href="https://github.com/mostafaalagamy/Metrolist">Metrolist</a> that replaces YouTube Music API integration with <strong>Subsonic API</strong> support. Connect to your own Subsonic-compatible music server (such as Airsonic, Navidrome, or Subsonic) to stream your personal music library.
 </div>
 
 <h1>Screenshots</h1>
@@ -18,79 +25,66 @@ If you're in a region where YouTube Music is not supported, you won't be able to
 <img src="https://github.com/mostafaalagamy/Metrolist/blob/main/fastlane/metadata/android/en-US/images/screenshots/screenshot_5.png" width="30%" />
 <img src="https://github.com/mostafaalagamy/Metrolist/blob/main/fastlane/metadata/android/en-US/images/screenshots/screenshot_6.png" width="30%" />
 
-<img src="https://github.com/mostafaalagamy/Metrolist/blob/main/fastlane/metadata/android/en-US/images/featureGraphic.png" width="91%" />
-
-[![Latest release](https://img.shields.io/github/v/release/mostafaalagamy/Metrolist?style=for-the-badge)](https://github.com/mostafaalagamy/Metrolist/releases)
-[![GitHub license](https://img.shields.io/github/license/mostafaalagamy/metrolist?style=for-the-badge)](https://github.com/mostafaalagamy/Metrolist/blob/main/LICENSE)
-[![Downloads](https://img.shields.io/github/downloads/mostafaalagamy/Metrolist/total?style=for-the-badge)](https://github.com/mostafaalagamy/Metrolist/releases)
-</div>
-
 <div align="center">
 <h1>Features</h1>
 </div>
 
-- Play any song from your Subsonic server
-- Background playback 
-- Personalized quick picks 
-- Library management 
-- Download and cache songs for offline playback
-- Search for songs, albums, and artists
-- Live lyrics 
-- Subsonic account login support
-- Syncing of songs, artists, and albums from your Subsonic server
-- Skip silence 
-- Audio normalization 
-- Adjust tempo/pitch 
-- Local playlist management
-- Reorder songs in playlist or queue 
-- Light - Dark - black - Dynamic theme
-- Sleep timer
-- Material 3 
-- etc.
+- **Play any song from your Subsonic server** - Stream your entire music library
+- **Background playback** - Keep listening while using other apps
+- **Personalized quick picks** - Discover music based on your listening habits
+- **Library management** - Organize and browse your music collection
+- **Download and cache songs** - Offline playback support
+- **Search functionality** - Find songs, albums, and artists quickly
+- **Live lyrics** - View synchronized lyrics while playing
+- **Subsonic account login** - Secure authentication with your server
+- **Library syncing** - Sync songs, artists, and albums from your Subsonic server
+- **Skip silence** - Automatically skip silent parts in tracks
+- **Audio normalization** - Consistent volume levels
+- **Adjust tempo/pitch** - Control playback speed and pitch
+- **Local playlist management** - Create and manage playlists
+- **Reorder songs** - Customize playlist and queue order
+- **Multiple themes** - Light, Dark, Black, and Dynamic theme support
+- **Sleep timer** - Auto-stop playback after a set time
+- **Material 3 design** - Modern, beautiful UI
+- And much more!
 
 <div align="center">
-<h1>Download Now</h1>
+<h1>Download</h1>
 
-<table>
-<tr>
-<td align="center">
-<a href="https://github.com/mostafaalagamy/Metrolist/releases/latest/download/Metrolist.apk"><img src="https://github.com/machiav3lli/oandbackupx/blob/034b226cea5c1b30eb4f6a6f313e4dadcbb0ece4/badge_github.png" alt="Get it on GitHub" height="82"></a><br/>
-<a href="https://www.openapk.net/metrolist/com.metrolist.music/"><img src="https://www.openapk.net/images/openapk-badge.png" alt="Get it on OpenAPK" height="80"></a>
-</td>
-<td align="center">
-<a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/mostafaalagamy/Metrolist/"><img src="https://github.com/ImranR98/Obtainium/blob/main/assets/graphics/badge_obtainium.png" alt="Get it on Obtainium" height="50"></a>
-</td>
-<td align="center">
-<a href="https://apt.izzysoft.de/fdroid/index/apk/com.metrolist.music"><img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" alt="Get it on IzzyOnDroid" height="80"></a><br/>
-<a href="https://belberi.com/metrolist/?fbclid=PAY2xjawJP5dlleHRuA2FlbQIxMAABpjSk1oBp4e8aSV4nfX2dfunQObTlMWIkN-aVA9CSq36pnmkHsvfoYTjhHg_aem_9o9OGbQuZ2PjJTArq21UDA"><img src="https://github.com/mostafaalagamy/Metrolist/blob/main/fastlane/metadata/android/en-US/images/belberi_github.png" alt="Get it on Belberi" height="82"></a>
-</td>
-</tr>
-</table>
+Check the [Releases](https://github.com/liraz747/Metrolist-Subsonic/releases) page for the latest APK.
 
 </div>
 
 <div align="center">
-<h1>Translations</h1>
-
-[![Translation status](https://img.shields.io/weblate/progress/metrolist?style=for-the-badge)](https://hosted.weblate.org/engage/metrolist/)
-
-We use Weblate to translate Metrolist. For more details or to get started, visit our [Weblate page](https://hosted.weblate.org/projects/Metrolist/).
-
-<a href="https://hosted.weblate.org/projects/Metrolist/">
-<img src="https://hosted.weblate.org/widget/Metrolist/horizontal-auto.svg" alt="Translation status" />
-</a>
-
-Thank you very much for helping to make Metrolist accessible to many people worldwide.
+<h1>Setup & Configuration</h1>
 </div>
+
+### Getting Started
+
+1. **Install the app** from the [Releases](https://github.com/liraz747/Metrolist-Subsonic/releases) page
+2. **Launch the app** - You'll be prompted to log in to your Subsonic server
+3. **Enter your Subsonic server details:**
+   - **Server URL**: Your Subsonic server address (e.g., `https://music.example.com` or `http://192.168.1.100:4040`)
+   - **Username**: Your Subsonic username
+   - **Password**: Your Subsonic password
+4. **Start streaming** your music!
+
+### Supported Subsonic Servers
+
+This app is compatible with any Subsonic-compatible server, including:
+- [Subsonic](http://www.subsonic.org/)
+- [Airsonic](https://airsonic.github.io/)
+- [Navidrome](https://www.navidrome.org/)
+- [Funkwhale](https://funkwhale.audio/)
+- And other Subsonic API-compatible servers
 
 <div align="center">
 <h1>FAQ</h1>
 </div>
 
-### Q: Why Metrolist isn't showing in Android Auto?
+### Q: Why Metrolist-Subsonic isn't showing in Android Auto?
 
-1. Go to Android Auto's settings and tap multiple times on the version in the bottom to enable
-   developer settings
+1. Go to Android Auto's settings and tap multiple times on the version in the bottom to enable developer settings
 2. In the three dots menu at the top-right of the screen, click "Developer settings"
 3. Enable "Unknown sources"
 
@@ -98,9 +92,43 @@ Thank you very much for helping to make Metrolist accessible to many people worl
 
 Use other music scrobbler apps, I recommend [Pano Scrobbler](https://play.google.com/store/apps/details?id=com.arn.scrobble).
 
+### Q: What Subsonic server version do I need?
+
+This app is compatible with Subsonic API version 1.16.0 and later. Most modern Subsonic-compatible servers should work.
+
+### Q: Can I use this with YouTube Music?
+
+No, this fork only supports Subsonic-compatible servers. For YouTube Music support, use the original [Metrolist](https://github.com/mostafaalagamy/Metrolist) app.
+
 <div align="center">
 <h1>Development Setup</h1>
 </div>
+
+### Prerequisites
+
+- Android Studio (latest version recommended)
+- JDK 21 or later
+- Android SDK
+
+### Building from Source
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/liraz747/Metrolist-Subsonic.git
+   cd Metrolist-Subsonic
+   ```
+
+2. Open the project in Android Studio
+
+3. Build the project:
+   ```bash
+   ./gradlew assembleArm64Release
+   ```
+
+4. The APK will be located at:
+   ```
+   app/build/outputs/apk/arm64/release/app-arm64-release-unsigned.apk
+   ```
 
 ### GitHub Secrets Configuration
 
@@ -120,62 +148,55 @@ This project uses GitHub Secrets to securely store API keys for building release
 <h1>Testing</h1>
 </div>
 
-To test the Subsonic functionality, you will need to add your Subsonic credentials in the settings screen. You can find the Subsonic settings in **Settings** → **Subsonic**.
+To test the Subsonic functionality:
 
-Once you have added your credentials, the app will use Subsonic for all online functionality.
+1. Build and install the app on your device
+2. On first launch, you'll be prompted to enter your Subsonic server credentials
+3. Enter your server URL, username, and password
+4. The app will authenticate and connect to your Subsonic server
+5. You can then browse and play music from your server
 
-<div align="center">
-<h1>Support Me</h1>
-
-If you'd like to support my work, send a Monero (XMR) donation to this address:
-
-44XjSELSWcgJTZiCKzjpCQWyXhokrH9RqH3rpp35FkSKi57T25hniHWHQNhLeXyFn3DDYqufmfRB1iEtENerZpJc7xJCcqt
-
-Or scan this QR code:
-
-<img src="https://github.com/mostafaalagamy/Metrolist/blob/main/assets/XMR.png" alt="QR Code" width="200" height="200" />
-
-Or other
-
-<a href="https://www.buymeacoffee.com/mostafaalagamy">
-<img src="https://github.com/mostafaalagamy/Metrolist/blob/main/assets/buymeacoffee.png?raw=true" alt="Buy Me a Coffee" width="150" height="150" />
-</a>
+For development testing, you can use a local Subsonic server or a test server instance.
 
 <div align="center">
-<h1>Join our community</h1>
-
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=1c1917)](https://dsc.gg/metrolist)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=1c1917)](https://t.me/metrolistapp)
+<h1>Contributing</h1>
 </div>
 
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
 <div align="center">
-<h1>Special thanks</h1>
+<h1>Special Thanks</h1>
+</div>
+
+**Original Metrolist**
+- [Mo Agamy](https://github.com/mostafaalagamy) - Original Metrolist creator
 
 **InnerTune**
-[Zion Huang](https://github.com/z-huang) • [Malopieds](https://github.com/Malopieds)
+- [Zion Huang](https://github.com/z-huang) • [Malopieds](https://github.com/Malopieds)
 
 **OuterTune**
-[Davide Garberi](https://github.com/DD3Boh) • [Michael Zh](https://github.com/mikooomich)
+- [Davide Garberi](https://github.com/DD3Boh) • [Michael Zh](https://github.com/mikooomich)
 
 <sub>Thank you to all the amazing developers who made this project possible!</sub>
 
-</div>
-
 <div align="center">
-<h1>Thanks to all contributors</h1>
-
-<a href = "https://github.com/mostafaalagamy/Metrolist/graphs/contributors">
-<img src = "https://contrib.rocks/image?repo=mostafaalagamy/Metrolist" width="600"/>
-</a>
-
+<h1>License</h1>
 </div>
+
+This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details.
 
 <div align="center">
 <h1>Disclaimer</h1>
 </div>
 
-This project and its contents are not affiliated with, funded, authorized, endorsed by, or in any way associated with YouTube, Google LLC, Metrolist Group LLC or any of its affiliates and subsidiaries.
+This project and its contents are not affiliated with, funded, authorized, endorsed by, or in any way associated with:
+- YouTube, Google LLC
+- Metrolist Group LLC
+- Subsonic.org
+- Any of their affiliates and subsidiaries
 
 Any trademark, service mark, trade name, or other intellectual property rights used in this project are owned by the respective owners.
 
-**Made with ❤️ by [Mo Agamy](https://github.com/mostafaalagamy)**
+**Forked and modified with ❤️ by [liraz747](https://github.com/liraz747)**
+
+**Original project made with ❤️ by [Mo Agamy](https://github.com/mostafaalagamy)**
