@@ -21,7 +21,7 @@ This is the initial release of Metrolist-Subsonic, a fork of Metrolist that adds
 - **Application ID**: com.metrolist.subsonic
 
 ### Installation
-Download the appropriate APK for your device architecture from the [Releases page](https://github.com/liraz747/Metrolist-Subsonic/releases/tag/v0.1).
+Download the appropriate APK for your device architecture from the [Releases page](https://github.com/liraz747/Metrolist-Subsonic/releases).
 
 ### Known Issues
 - This is an initial release - please report any issues on GitHub
