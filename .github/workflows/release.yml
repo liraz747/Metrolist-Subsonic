@@ -30,6 +30,12 @@ jobs:
             echo "Tag push detected: $TAG_VERSION"
             NEW_VERSION=$(grep -oP 'versionName\s*=\s*"\K[^"]+' app/build.gradle.kts || echo "")
             VERSION_CODE=$(grep -oP 'versionCode\s*=\s*\K\d+' app/build.gradle.kts || echo "")
+            
+            # Warn if tag doesn't match gradle version (optional check)
+            if [[ "$TAG_VERSION" != "v$NEW_VERSION" ]]; then
+              echo "::warning::Tag version ($TAG_VERSION) does not match gradle version (v$NEW_VERSION)"
+            fi
+            
             echo "version_changed=true" >> $GITHUB_OUTPUT
             echo "new_version=$NEW_VERSION" >> $GITHUB_OUTPUT
             echo "version_code=$VERSION_CODE" >> $GITHUB_OUTPUT
