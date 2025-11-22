@@ -5,6 +5,8 @@ on:
       - 'main'
     paths:
       - 'app/build.gradle.kts'
+    tags:
+      - 'v*.*'
   workflow_dispatch:
 
 jobs:
